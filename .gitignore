@@ -1,0 +1,44 @@
+# --- Python bytecode / caché ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Entornos virtuales ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Pruebas y cobertura (pytest) ---
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+
+# --- Linters / type checkers ---
+.ruff_cache/
+.mypy_cache/
+
+# --- Build / empaquetado ---
+build/
+dist/
+*.egg-info/
+*.egg
+
+# --- Variables de entorno y secretos ---
+.env
+.env.*
+
+# --- Editores / IDE ---
+# Se mantiene .vscode/settings.json (configuración compartida del proyecto)
+.vscode/*
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
